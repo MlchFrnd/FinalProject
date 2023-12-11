@@ -1,0 +1,197 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: 'poppins' , sans-serif;
+
+}
+body
+{
+    color: #ededed;
+    background: #081b29;
+}
+.header
+{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: #051129;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.navbar a {
+    display: inline-block;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 100px;
+    transition: .3s;
+}
+.navbar a:hover{
+    color: darkorange;
+}
+.home {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background: no-repeat;
+    background-color: #081b29;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+.home-content {
+    max-width: 600px;
+}
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+}
+.home-content h3 span {
+    color: darkcyan;
+}
+.home-content h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin: -3px 0;
+}
+.home-content h1:hover {
+    color: darkorange;
+}
+.home-content p {
+    font-size: 20px;
+}
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 6rem;
+}
+.about-text h2 {
+    font-size: 60px;
+}
+.about-text h2 span {
+    color: darkcyan;
+}
+.about-text h4 {
+    font-size: 29px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.7;
+    margin: 15px 0 30px;
+}
+.about-text p {
+    color: aliceblue;
+    font-size: 20px;
+    margin-bottom: 4rem;
+}
+#education {
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+.sub-title {
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 70px;
+}
+.sub-title span {
+    color: darkcyan;
+}
+.container {
+    padding: 90px;
+}
+.school-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.school-list div {
+    background-color: transparent;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 13px;
+    border-radius: 20px;
+    border-right: 10px;
+    transition: background 0.5, transform 0.5;
+    box-shadow: 1px 1px 20px #012290f7, 
+    	      1px 1px 40px  #0053b8f7
+}
+.school-list div i {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.school-list div h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.school-list div a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.img{
+    position: absolute;
+    top:250px ;
+    left: 700px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    border: white 1.5px solid;
+    border-radius: 50%;
+    border-style: inherit;
+    filter: saturate(125%);
+
+}
+.bar {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.heading1 {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 6rem;
+}
+.contacts h1 {
+    font-size: 60px;
+    text-align: center;
+} 
+.contacts h1 span {
+    color: darkcyan;
+}
+.contacts h4 {
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.7;
+    margin: 15px 0 30px;
+}
+#dark-mode-toggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
